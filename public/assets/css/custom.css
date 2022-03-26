@@ -1,0 +1,32 @@
+.image-h300 {
+    height: 300px;
+}
+.h75px {
+    height: 75px;
+}
+.h50px {
+    height: 30px;
+}
+.opacity-100 {
+    opacity: 1;
+}
+
+.opacity-75 {
+    opacity: .75;
+}
+
+.opacity-50 {
+    opacity: .50;
+}
+
+.opacity-25 {
+    opacity: .25;
+}
+
+.absolute {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 75%;
+    z-index: 100;
+}
