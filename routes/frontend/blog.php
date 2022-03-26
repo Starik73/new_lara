@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/admin-dashboard', function () {
-    return view('backend/dashboard');
+Route::get('blog', function () {
+    return view('common/welcome');
 });
