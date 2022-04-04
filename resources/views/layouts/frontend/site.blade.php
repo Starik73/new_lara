@@ -8,8 +8,9 @@
     <meta content="{{ $description ?? 'Astashenkov.ru, сайт о программировании и мире IT, Асташенков Алексей Ульяновск HTML CSS JavaScript PHP LARAVEL +79021290036' }}" name="description">
     <meta content="{{ $keywords ?? 'Astashenkov.ru, сайт о программировании и мире IT, Асташенков Алексей Ульяновск HTML CSS JavaScript PHP LARAVEL +79021290036' }}" name="keywords">
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('favicon/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('favicon/favicon-16x16.png') }}">
+    <link sizes="180x180" href="{{ asset('favicon/apple-touch-icon.png') }}" rel="apple-touch-icon">
     {{-- <!-- Google Fonts --> --}}
     {{-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"> --}}
     <!-- Fonts -->

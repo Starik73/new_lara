@@ -12,7 +12,7 @@
                     </a>
                 </li>
                 <li>
-                    <a class="nav-link scrollto" href="{{ route('home') }}">Информация</a>
+                    <a class="nav-link scrollto" href="{{ route('info') }}">Информация</a>
                 </li>
                 <li class="dropdown"><a href="#"><span>Онлайн уроки</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
@@ -58,9 +58,11 @@
     <div class="hero-container" data-aos="fade-up">
         <h1>БЛОГ PHP ПРОГРАММИСТА</h1>
         <h2>HTML, CSS, JavaScript, PHP, Laravel</h2>
-        <a href="#about" class="btn-get-started scrollto">
-            <i class="bx bx-chevrons-down"></i>
-        </a>
+        @if (Route::currentRouteName() == 'home')
+            <a href="#about" class="btn-get-started scrollto">
+                <i class="bx bx-chevrons-down"></i>
+            </a>
+        @endif
     </div>
 </section>
 <!-- End Hero -->

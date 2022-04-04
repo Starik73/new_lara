@@ -18,22 +18,45 @@
                             <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
                                 <i class="bx bx-receipt"></i>
                                 <h4>HTML</h4>
-                                <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                                <p>
+                                    HTML (HyperText Markup Language, язык разметки гипертекста) — это система верстки,
+                                    которая определяет, как и какие элементы должны располагаться на веб-странице.
+                                    Информация на сайте, способ ее представления и оформления зависят исключительно от
+                                    разработчика и тех целей, которые он перед собой ставит.
+                                </p>
                             </div>
                             <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
                                 <i class="bx bx-cube-alt"></i>
                                 <h4>CSS</h4>
-                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                                <p>
+                                    Стилем или CSS (Cascading Style Sheets, каскадные таблицы стилей) называется набор
+                                    параметров форматирования, который применяется к элементам документа, чтобы изменить
+                                    их внешний вид. Возможность работы со стилями издавна включают в развитые
+                                    издательские системы и текстовые редакторы, тем самым позволяя одним нажатием кнопки
+                                    придать тексту заданный, заранее установленный вид. Теперь это доступно и создателям
+                                    сайта, когда цвет, размеры текста и другие параметры хранятся в определенном месте и
+                                    легко «прикручиваются» к любому тегу. Еще одним преимуществом стилей является то,
+                                    что они предлагают намного больше возможностей для форматирования, чем обычный HTML.
+                                </p>
                             </div>
                             <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
                                 <i class="bx bx-images"></i>
                                 <h4>JavaScript</h4>
-                                <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                                <p>
+                                    Изначально JavaScript был создан, чтобы «сделать веб-страницы живыми».
+                                    Программы на этом языке называются скриптами. Они могут встраиваться в HTML и
+                                    выполняться автоматически при загрузке веб-страницы.
+                                    Скрипты распространяются и выполняются, как простой текст. Им не нужна специальная
+                                    подготовка или компиляция для запуска.
+                                </p>
                             </div>
                             <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
                                 <i class="bx bx-shield"></i>
                                 <h4>PHP</h4>
-                                <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                                <p>
+                                    PHP - это серверный скриптовый язык программирования, предназначенный для создания
+                                    сайтов и веб-приложений.
+                                </p>
                             </div>
                         </div>
                     </div><!-- End .content-->
@@ -48,7 +71,8 @@
             <div class="section-title" data-aos="fade-in" data-aos-delay="100">
                 <h2>Services</h2>
                 <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
+                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+                    fugiat
                     sit in iste officiis commodi quidem hic quas.</p>
             </div>
             <div class="row">
@@ -56,7 +80,8 @@
                     <div class="icon-box" data-aos="fade-up">
                         <div class="icon"><i class="bx bxl-dribbble"></i></div>
                         <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-                        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi
+                        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
+                            excepturi
                         </p>
                     </div>
                 </div>
@@ -72,7 +97,8 @@
                     <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
                         <div class="icon"><i class="bx bx-tachometer"></i></div>
                         <h4 class="title"><a href="">Magni Dolores</a></h4>
-                        <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                        <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia
                         </p>
                     </div>
                 </div>
@@ -80,7 +106,8 @@
                     <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
                         <div class="icon"><i class="bx bx-world"></i></div>
                         <h4 class="title"><a href="">Nemo Enim</a></h4>
-                        <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                            blanditiis
                         </p>
                     </div>
                 </div>
@@ -95,7 +122,8 @@
             <div class="section-title">
                 <h2>Contact</h2>
                 <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
+                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+                    fugiat
                     sit in iste officiis commodi quidem hic quas.</p>
             </div>
 
@@ -142,8 +170,8 @@
                                     required>
                             </div>
                             <div class="col-md-6 form-group mt-3 mt-md-0">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
-                                    required>
+                                <input type="email" class="form-control" name="email" id="email"
+                                    placeholder="Your Email" required>
                             </div>
                         </div>
                         <div class="form-group mt-3">
@@ -151,8 +179,7 @@
                                 required>
                         </div>
                         <div class="form-group mt-3">
-                            <textarea class="form-control" name="message" rows="5" placeholder="Message"
-                                required></textarea>
+                            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
                         </div>
                         <div class="my-3">
                             <div class="loading">Loading</div>
