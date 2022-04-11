@@ -14,12 +14,17 @@ class CreatePostsContentsTable extends Migration
     public function up()
     {
         Schema::create('posts_contents', function (Blueprint $table) {
-            $table->string('post_id')->unique();
+            $table->foreignId('post_id')
+                ->references('id')
+                ->on('posts')
+                ->cascadeOnDelete()
+            ;
             $table->string('language_id')->default('ru');
-            $table->string('title');
-            $table->string('header');
-            $table->string('img_url');
+            $table->string('title')->nullable();
+            $table->string('header')->nullable();
+            $table->string('img_url')->nullable();
             $table->text('post_body')->nullable();
+            $table->timestamps();
         });
     }
 
