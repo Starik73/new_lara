@@ -14,4 +14,12 @@ class Post extends Model
     {
         return $this->belongsTo(User::class, 'author_id');
     }
+
+    public function content()
+    {
+        $lang_code = LANG_CODE ?? 'en';
+        return $this->hasOne(PostsContent::class)->where([
+            'lang_code' => $lang_code,
+        ]);
+    }
 }

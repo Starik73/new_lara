@@ -20,7 +20,7 @@ class PostsContentFactory extends Factory
     {
         return [
             'post_id' => Post::factory(),
-            'language_id' => 'en',
+            'lang_code' => 'en',
             'title' => $this->faker->word,
             'header' => $this->faker->sentence,
             'img_url' => $this->faker->sentence,

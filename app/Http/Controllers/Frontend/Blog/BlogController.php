@@ -4,6 +4,8 @@ namespace App\Http\Controllers\Frontend\Blog;
 
 use Illuminate\Support\Facades\Session;
 use App\Http\Controllers\Controller;
+use App\Models\Post;
+use Illuminate\Http\Request;
 
 class BlogController extends Controller
 {
@@ -15,22 +17,15 @@ class BlogController extends Controller
     public function index()
     {
         // Session::flash('error', '');
-        return view('frontend.site.index');
+        $blogs = Post::all();
+        return view('frontend.blog.index' , [
+            'blogs' => $blogs
+        ]);
     }
 
-    public function info()
+    public function view(Request $request)
     {
         // Session::flash('error', '');
-        return view('frontend.site.info');
-    }
-
-    public function game()
-    {
-        return view('frontend.site.game');
-    }
-
-    public function contact()
-    {
-        return view('frontend.site.contact');
+        return view('frontend.blog.view');
     }
 }

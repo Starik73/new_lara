@@ -19,7 +19,7 @@ class CreatePostsMetaDataTable extends Migration
                 ->on('posts')
                 ->cascadeOnDelete()
             ;
-            $table->string('language_id')->default('ru');
+            $table->string('lang_code')->default('ru');
             $table->string('keywords')->nullable();
             $table->string('description')->nullable();
             $table->string('og_title')->default('Заголовок поста');

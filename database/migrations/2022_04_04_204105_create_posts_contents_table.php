@@ -19,7 +19,7 @@ class CreatePostsContentsTable extends Migration
                 ->on('posts')
                 ->cascadeOnDelete()
             ;
-            $table->string('language_id')->default('ru');
+            $table->string('lang_code')->default('ru');
             $table->string('title')->nullable();
             $table->string('header')->nullable();
             $table->string('img_url')->nullable();
