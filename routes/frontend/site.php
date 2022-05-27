@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\FrontEnd\Site\SiteController;
+use App\Http\Controllers\Frontend\Site\SiteController;
 use Illuminate\Support\Facades\Route;
 
 Route::middleware('guest')->group(function () {

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\FrontEnd\Lesson;
+namespace App\Http\Controllers\Frontend\Lesson;
 
 use Illuminate\Support\Facades\Session;
 use App\Http\Controllers\Controller;
